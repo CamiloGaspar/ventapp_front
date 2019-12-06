@@ -1,12 +1,13 @@
-<nav>
-  <div class="logo"></div>
-  <ul>
-      <li><a href="#" class="active">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Portfolio</a></li>
-      <li><a href="#">Team</a></li>
-      <li><a href="#">Contact</a></li>
-  </ul>
-</nav>
-<router-outlet></router-outlet>
+<input type="checkbox" name="" checked="checked">
+<span class="icon"></span>
+<ul>
+  <li><a routerLink="/ventas">Ventas</a></li>
+  <li><a routerLink="/compras">Compras</a></li>
+  <li><a routerLink="/productos">Productos</a></li>
+  <li><a routerLink="/cuentas">Cuentas</a></li>
+  <li><a routerLink="/materiales">Materiales</a></li>
+</ul>
+<div class="contenido">
+  <router-outlet></router-outlet>
+</div>
+
